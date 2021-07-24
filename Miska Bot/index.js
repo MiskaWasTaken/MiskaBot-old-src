@@ -161,24 +161,6 @@ Client.on("message", async (message, guild) => {
 
     if(commands) commands.run(Client, message, args, prefix);
 
-    if(message.content.startsWith(`${prefix}snipe`)) {
-        let snipe = snipes.get(message.channel.id)
-
-        const nsnipeEmbed = new Discord.MessageEmbed()
-        .setTitle('Snipe Command')
-        .setDescription('Nothing got Deleted!')
-        .setColor("RANDOM")
-        .setFooter('Error no deleted message found')
-        
-        if(!snipe) return message.channel.send(nsnipeEmbed)
-
-        const snipeEmbed = new Discord.MessageEmbed()
-        .setAuthor(`Message By ${snipe.author.tag}`, snipe.author.displayAvatarURL())
-        .setColor("RANDOM")
-        .setDescription(snipe.content)
-        message.channel.send(snipeEmbed)
-    }
-
     let channel = message.guild.channels.cache.find(channel => channel.name === "chat-bot")
     if(message.channel.name == 'chat-bot') {
         fetch.default(`https://api.monkedev.com/fun/chat?msg=${encodeURIComponent(message.content)}&uid=${message.author.id}`)
