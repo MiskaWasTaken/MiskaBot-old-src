@@ -66,6 +66,10 @@ This is my first bot I every created, so if its bad now you know why
 
 ## To use the bot please do `$help` to configure the bot please do `$config` happy hunting!
 
+# If you would like to invite this bot please use one of the following links:
+* [Discord Bot List](https://discordbotlist.com/bots/miska-bot)
+* [Raw Link](https://discord.com/api/oauth2/authorize?client_id=847828846597373973&permissions=3757436406&scope=bot)
+
 ## Credits: 
 
 * [GlowStik](https://github.com/Glowstik-YT)
