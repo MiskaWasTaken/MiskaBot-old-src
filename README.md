@@ -1,4 +1,5 @@
 # Miska Bot
+# Bot is currently being re-written using .ts cause the code was trash, ill let you know when its done.
 This is my first bot I every created, so if its bad now you know why
 
 # Features:
