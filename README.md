@@ -1,5 +1,5 @@
 # Miska Bot (Old SRC)
-## This code has been depricated. And will probably not work, a rewrite has been created but it will stay private. Actual bot doesnt use this code btw.
+## This code has been depricated. And will probably not work, a rewrite has been created the link is below. Actual bot doesnt use this code btw.
 
 ## For the code the current bot is using visit:
 * [MiskaBotSRC](https://github.com/MiskaWasTaken/MiskaBot)
